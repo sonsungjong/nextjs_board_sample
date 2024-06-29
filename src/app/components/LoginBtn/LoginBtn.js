@@ -6,7 +6,7 @@ import './LoginBtn.css';
 import {signIn, signOut, useSession} from 'next-auth/react';
 
 export default function LoginBtn({login}){
-    console.log(login);
+    console.log('로그인성공? ',login);
     return(
         <>
             {

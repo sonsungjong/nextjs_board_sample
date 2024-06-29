@@ -11,6 +11,7 @@ export default async function handler(req, res){
             // npm install bcrypt
             let hash = await bcrypt.hash(req.body.password, 10);        // 암호화를 해서
             req.body.password = hash;           // 넣는다
+            console.log(req.body)
 
             let db = (await connectDB).db('mydb');
             await db.collection('user').insertOne(req.body);
