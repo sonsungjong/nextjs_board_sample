@@ -94,4 +94,3 @@ github 로그인 -> 우측 프로필 아이콘 클릭 -> Settings -> Developer s
 
 // URI(Uniform Resource Identifier)와 URL(Uniform Resource Locator)
 
-// 구글
